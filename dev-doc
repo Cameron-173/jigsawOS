@@ -1,0 +1,18 @@
+# jigsawOS and jigWear -- Developer Documentation
+
+  This is some documentation that is useful for those who wish to make applets and extensions for jigsawOS and its wearable mode, jigWear.
+  This will be updated at some point, as I don't know what I'm actually doing.
+
+  
+  # -- jigsawOS Guidelines
+
+  - Make sure your applet is easy to use. (ask people for feedback if unsure)
+  - The code for your applet should be optimised, as the micro:bit has a very limited amount of memory.
+    - Ask people for testing and feedback if unsure.
+  - There are two versions of the BBC micro:bit. Please specify and make a different version of the applet if it needs v2 features. (eg. speaker, microphone)
+
+    
+  # -- jigWear Guidelines
+
+  - jigWear applets will be used on the go, and while on the move. Make sure they are easy to navigate, and not distracting or complicated.
+  - They should take advantage of certain parts of the micro:bit v1 and v2 hardware, such as the accelerometer, etc.
